@@ -8,8 +8,14 @@
            $output =$getal1+$getal2;
             
     }
-      
+     if($calculate == "-") {
+        $output =$getal1-$getal2;
+
+
+     } 
 
         echo("Uw resultaat is:".$output);
+
+
 
 ?>
